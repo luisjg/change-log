@@ -3,8 +3,38 @@ body {
 	font-family: sans-serif;
 	color:  #000;
 }
-
-.content {
+nav {
+	padding-top:  1rem;
+	padding-bottom:  1rem;
+}
+nav ul {
+	display:  inline;
+}
+nav ol, nav ul {
+	margin-block-end:  0px;
+	margin-block-start:  0px;
+	padding-inline-start:  0px;
+	padding-inline-end:  2rem;
+}
+main {
+	padding-top:  1rem;
+	padding-bottom:  1rem;
+}
+footer {
+	padding-top:  1rem;
+	margin: auto;
+	width: 50%;
+}
+hr {
+	border-color: rgba(4, 120, 87, 1);
+}
+a {
+	color: rgba(91, 33, 182, 1);
+}
+a:hover {
+	color: rgba(139, 92, 246, 1);
+}
+.container {
 	margin:  auto;
-	widtH:  50%;
+	width:  50%;
 }
