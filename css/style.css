@@ -16,6 +16,13 @@ nav ol, nav ul {
 	padding-inline-start:  0px;
 	padding-inline-end:  2rem;
 }
+li {
+	padding-top: 0.35rem;
+}
+small {
+	font-style: italic;
+	font-weight: bolder;
+}
 main {
 	padding-top:  1rem;
 	padding-bottom:  1rem;
