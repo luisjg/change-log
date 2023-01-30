@@ -1,9 +1,18 @@
+* {
+	box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+}
+html {
+	font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
 body {
-	background-color: #aaa;
-	font-family: sans-serif;
+	background-color: #f3f2f0;
 	color:  #000;
+	margin: 0;
 }
 nav {
+	background-color: rgba(167, 139, 250, 0.4);
 	padding-top:  1rem;
 	padding-bottom:  1rem;
 }
@@ -16,6 +25,16 @@ nav ol, nav ul {
 	padding-inline-start:  0px;
 	padding-inline-end:  2rem;
 }
+nav a {
+	font-size: 1.25rem;
+	border-bottom-width: 4px;
+	border-color: transparent;
+	margin-left: 10rem;
+}
+nav a:hover {
+	border-bottom-width: 4px;
+	border-color: rgba(139, 92, 246, 1);
+}
 li {
 	padding-top: 0.35rem;
 }
@@ -26,16 +45,22 @@ small {
 main {
 	padding-top:  1rem;
 	padding-bottom:  1rem;
-}
-footer {
-	padding-top:  1rem;
 	margin: auto;
 	width: 50%;
+}
+footer {
+	background-color: rgba(167, 139, 250, 0.4);
+	padding-top:  0.5rem;
+	padding-bottom: 0.5rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: rgba(75, 85, 99, 1);
 }
 hr {
 	border-color: rgba(4, 120, 87, 1);
 }
 a {
+	text-decoration: none;
 	color: rgba(91, 33, 182, 1);
 }
 a:hover {
@@ -44,4 +69,39 @@ a:hover {
 .container {
 	margin:  auto;
 	width:  50%;
+}
+.footer-container {
+	margin: auto;
+	width: 50%;
+}
+.footer-container p {
+	margin-left: 10rem;
+}
+::selection {
+    color: white;
+    background: #766C7F;
+}
+/* width */
+::-webkit-scrollbar {
+    width: .5em;
+    max-height: .5em;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: none;
+}
+::-webkit-scrollbar-track-piece {
+    background: none;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #766C7F; /* WebKit/Blink Browsers */
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+::-moz-selection {
+    color: white; 
+    background: #766C7F; /* Gecko Browsers */
 }
